@@ -24,11 +24,6 @@
             <url>https://github.com/xenoamess</url>
         </developer>
     </developers>
-    <parent>
-        <groupId>org.apache.commons</groupId>
-        <artifactId>commons-parent</artifactId>
-        <version>52</version>
-    </parent>
     <scm>
         <connection>scm:git:${project.url}.git</connection>
         <developerConnection>${project.scm.connection}</developerConnection>
@@ -167,19 +162,6 @@
         </resources>
 
         <plugins>
-            <plugin>
-                <groupId>io.takari</groupId>
-                <artifactId>maven</artifactId>
-                <version>0.7.7</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>wrapper</goal>
-                        </goals>
-                        <phase>generate-resources</phase>
-                    </execution>
-                </executions>
-            </plugin>
             <plugin>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>${maven-dependency-plugin.version}</version>
