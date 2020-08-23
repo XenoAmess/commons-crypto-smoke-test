@@ -311,7 +311,7 @@
                         <configuration>
                             <repoGitUri>https://github.com/apache/commons-crypto</repoGitUri>
                             <relativeDirectory>/src/test</relativeDirectory>
-                            <outputDirectory>${project.build.directory}/generated-test-sources/test</outputDirectory>
+                            <outputDirectory>${project.build.directory}/generated-test-sources</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
