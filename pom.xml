@@ -331,6 +331,18 @@
         </plugins>
     </reporting>
     <repositories>
+        <!--        <repository>-->
+        <!--            <id>com.xenoamess</id>-->
+        <!--            <url>http://xenoamess.com:8081/repository/maven-releases/</url>-->
+        <!--        </repository>-->
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+        <!--        <repository>-->
+        <!--            <id>jitpack.io</id>-->
+        <!--            <url>https://jitpack.io</url>-->
+        <!--        </repository>-->
         <repository>
             <id>apache</id>
             <name>apache</name>
