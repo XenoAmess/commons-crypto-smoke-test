@@ -24,6 +24,11 @@
             <url>https://github.com/xenoamess</url>
         </developer>
     </developers>
+    <parent>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-parent</artifactId>
+        <version>52</version>
+    </parent>
     <scm>
         <connection>scm:git:${project.url}.git</connection>
         <developerConnection>${project.scm.connection}</developerConnection>
@@ -130,6 +135,11 @@
             <artifactId>junit</artifactId>
             <version>4.13</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>5.5.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
