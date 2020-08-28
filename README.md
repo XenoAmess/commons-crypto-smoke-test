@@ -1,1 +1,1 @@
-smoke test for [commons-crypto](url=https://github.com/apache/commons-crypto)
+smoke test for [commons-crypto](https://github.com/apache/commons-crypto)
