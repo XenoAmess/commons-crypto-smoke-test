@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
-    <description>smoke test for commons crypto</description>
+    <description>smoke test for commons-crypto</description>
     <url>https://github.com/smoke-test/smoke-test-commons-crypto</url>
     <licenses>
         <license>
